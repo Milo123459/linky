@@ -36,7 +36,7 @@ Contributions are welcome! Whether it is a small documentation change, or a brea
 
 ## Contributors ✨
 
-Please thank all of our contributors, this projcet wouldn't be possible without you. ♥
+Please thank all of our contributors, this project wouldn't be possible without you. ♥
 
 <div align="center">
 <table>
