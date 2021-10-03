@@ -1,6 +1,12 @@
 <h1 align='center'>🔗 Linky</h1>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<div align='center'> 
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](#contributors-)
+![License](https://img.shields.io/github/license/rithulkamesh/linky?label=License&style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/rithulkamesh/linky?label=Last%20Commit&style=for-the-badge)
+
+<div>
 
 ## What is Linky?
 
