@@ -18,7 +18,7 @@ Linky, Making Link Shortening as easy as a-b-c.
 
 <div align='center'>  
 
-## Contributin
+## Contributing
 
 <div align='left'>
 
