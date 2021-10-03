@@ -10,11 +10,13 @@
 
 ## What is Linky?
 
-Everyone hates long links, and custom link shorteners which allow you to setup custom domains can be costly. Linky is designed to solve these issues by creating a small, fast, and scalable soloution to short links. This project is designed to be small, meaning you can host it on something like [railway](https://railway.app) for free.
+Everyone hates long links, and custom link shorteners which allow you to setup custom domains can be costly. Linky is designed to solve these issues by creating a small, fast, and scalable soloution to short links. This project is designed to be small, allowing you to host it on something like [railway](https://railway.app), free of charge!.
 
 <div align='center'>  
 
 ## What features does Linky have?
+
+<div align='left'>
 
 - Shorten links
 - Attach to custom domains
