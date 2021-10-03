@@ -2,7 +2,7 @@
 
 <div align='center'> 
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=for-the-badge)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=for-the-badge)](#contributors-)
 ![License](https://img.shields.io/github/license/rithulkamesh/linky?label=License&style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/rithulkamesh/linky?label=Last%20Commit&style=for-the-badge)
 
@@ -40,6 +40,7 @@ Please thank all of our contributors, this projcet wouldn't be possible without 
 <table>
   <tr>
     <td align="center"><a href="http://rithulk.me"><img src="https://polywork-production.imgix.net/bdw6h3awciwfje5y2939rzvjc3c4?ixlib=rails-4.2.0&w=128&h=128&fit=crop&auto=format" width="100px;" alt=""/><br /><sub><b>Rithul Kamesh</b></sub></a><br /></td>
+        <td align="center"><a href="http://github.com/Milo123459"><img src="https://avatars.githubusercontent.com/u/50248166?v=4" width="100px;" alt=""/><br /><sub><b>Milo123459</b></sub></a><br /></td>
     </tr>
 </table>
 </div>
