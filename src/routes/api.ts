@@ -1,9 +1,28 @@
 import { Router } from 'express';
+import checkUser, { funcStatus } from '../functions/checkUser';
+import register from '../functions/register';
 var router = Router();
 
-//@ts-ignore
-router.get('/getWebsites', (req, res) =>{
-    res.send('Welcome to APIs')
+router.post('/register', async (req, res) => {
+    const { email, pass } = req.body ?? {};
+    if (!email || !pass) return res.status(400).send('Bad request');
+
+    var check = await checkUser(email);
+    if ((check === funcStatus.EXISTS))
+        return res.status(409).send('User already exists');
+    await register(email, pass);
+    return res.send("Success")
 });
+
+/*
+router.post('/login', async (req, res) => {
+    const { email, pass } = req.body ?? {};
+    if (!email || !pass) return res.status(400).send('Bad request');
+
+    var check = await checkUser(email);
+    if ((check === funcStatus.NOT))
+        return res.status(404).send('User Not Found');
+});
+*/
 
 export default router;

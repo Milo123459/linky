@@ -14,7 +14,7 @@
 
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "noImplicitReturns": true,
+        "noImplicitReturns": false,
         "noFallthroughCasesInSwitch": true,
         "traceResolution": false,
         "listEmittedFiles": false,
@@ -33,7 +33,7 @@
         ],
 
         "paths": {
-            "@entities/*": ["./src/Database/entities/*"]
+            "@entities/*": ["src/Entities/*"]
         }
     },
     "include": ["src/**/*.ts"],
