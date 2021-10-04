@@ -2,7 +2,7 @@
 
 <div align='center'>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors-)
+[![All Contributors](https://img.shields.io/github/contributors/rithulkamesh/linky?color=orange)](#contributors-)
 ![License](https://img.shields.io/github/license/rithulkamesh/linky?label=License)
 ![Last Commit](https://img.shields.io/github/last-commit/rithulkamesh/linky?label=Last%20Commit)
 ![Stars](https://img.shields.io/github/stars/rithulkamesh/linky)

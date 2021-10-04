@@ -23,6 +23,7 @@
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
         "allowUnusedLabels": true,
+        "baseUrl": "./",
         "lib": ["es2017"],
         "types": ["node"],
         "typeRoots": ["node_modules/@types", "src/types"],
@@ -30,11 +31,7 @@
             {
                 "transform": "@zerollup/ts-transform-paths"
             }
-        ],
-
-        "paths": {
-            "@entities/*": ["src/Entities/*"]
-        }
+        ]
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules/**", "deployments/**", "images/**"],
