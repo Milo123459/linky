@@ -10,7 +10,7 @@
 
 ## What is Linky?
 
-Everyone hates long links, and custom link shorteners which allow you to setup custom domains can be costly. Linky is designed to solve these issues by creating a small, fast, and scalable soloution to short links. This project is designed to be small, allowing you to host it on something like [railway](https://railway.app), free of charge!.
+Everyone hates long links, and custom link shorteners which allow you to setup custom domains can be costly. Linky is designed to solve these issues by creating a small, fast, and scalable soloution to shorten links. This project is designed to be small, allowing you to host it on a service like [railway](https://railway.app), for completely free of charge too!
 
 <div align='center'>  
 
@@ -32,11 +32,11 @@ Everyone hates long links, and custom link shorteners which allow you to setup c
 
 Contributions are welcome! Whether it is a small documentation change, or a breaking feature, we welcome it! 
 
-*Please note, all contributions are taken under the MIT license*
+*Please note: All contributions are taken under the MIT license*
 
 ## Contributors ✨
 
-Please thank all of our contributors, this project wouldn't be possible without you. ♥
+I'm really greatful to of our contributors, this project wouldn't be possible without you. ♥
 
 <div align="center">
 <table>
