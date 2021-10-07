@@ -9,13 +9,14 @@
 ![Forks](https://img.shields.io/github/forks/rithulkamesh/linky)
 [![CodeFactor](https://www.codefactor.io/repository/github/rithulkamesh/linky/badge)](https://www.codefactor.io/repository/github/rithulkamesh/linky)
 
-## What is Linky?   
+## What is Linky?
 </div>
 
 Everyone hates long links, and custom link shorteners which allow you to set up custom domains can be costly. Linky is designed to solve these issues by creating a small, fast, and scalable solution to shorten links. This project is designed to be small, allowing you to host it on a service like [Railway](https://railway.app), for completely free of charge too!
 
 <div align='center'>
-## What features does Linky have?
+
+## What can Linky do?
 </div>
 
 <div align='left'>
