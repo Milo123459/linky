@@ -1,7 +1,7 @@
 import { getConnection } from 'typeorm';
 import { User } from '../entity/User';
 
-export default async function checkUser(email) {
+export default async function checkUser(email:string, returnUser=false) {
     const user = await getConnection()
         .getRepository(User)
         .createQueryBuilder('user')
@@ -9,7 +9,11 @@ export default async function checkUser(email) {
         .getOne();
 
     if (!user) return funcStatus.NOT;
-    return funcStatus.EXISTS;
+    if(returnUser === false) {
+        return funcStatus.EXISTS;
+    } else {
+        return user;
+    }
 }
 
 export enum funcStatus {
