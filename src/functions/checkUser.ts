@@ -1,5 +1,5 @@
 import { getConnection } from 'typeorm';
-import { User } from '../entity/User';
+import { User } from '../Database/entities/User';
 
 export default async function checkUser(email:string, returnUser=false) {
     const user = await getConnection()

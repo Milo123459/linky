@@ -7,6 +7,7 @@ import express from 'express';
 import apiRoutes from './routes/api';
 import frontendRoutes from './routes/frontend';
 import cookieParser from 'cookie-parser';
+import { Database } from './Database';
 
 // Database Initialisation and Syncing of Tables
 (async () => {
@@ -14,6 +15,7 @@ import cookieParser from 'cookie-parser';
         await console.clear();
         await createConnection().then(async (conn) => conn.synchronize());
         success('Connected to Database successfully.');
+        await new Database().initialize();
     } catch {
         await console.clear();
         error('Connection to database failed. Please check your credentials.');

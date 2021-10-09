@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import { getConnection } from 'typeorm';
-import { User } from '../entity/User';
+import { User } from '../Database/entities/User';
 
 export default async function register(email, pw) {
     const encryptedPass = await bcrypt.hash(pw, 15);
